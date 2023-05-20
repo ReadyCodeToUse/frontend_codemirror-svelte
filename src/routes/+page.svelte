@@ -1,7 +1,11 @@
 <script>
-	import About from '$lib/components/layout/about.svelte';
-	import Home from '$lib/components/layout/home.svelte';
+	import CodeMirror from '$lib/components/CodeMirror.svelte';
 </script>
 
-<Home />
-<About />
+<div class="px-8">
+	<section id="txt-edit" class="grid grid-cols-2">
+		<div class="col-start-1 col-span-2 row-start-1">Tool bar placeholder</div>
+		<div class="col-start-1 row-start-2 row-span-2"><CodeMirror /></div>
+		<div class="col-start-2 row-start-2 row-span-2"><CodeMirror /></div>
+	</section>
+</div>
